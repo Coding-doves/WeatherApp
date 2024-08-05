@@ -17,7 +17,7 @@ ___
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/Coding-doves/weatherApp.git
+    git clone https://github.com/Coding-doves/WeatherApp.git
     cd weatherApp
     ```
 
