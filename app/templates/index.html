@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!--Css-->
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <div id="weather-result" class="alert alert-primary" role="alert"></div>
+        <div>
+            <div class="card-group">
+                <div class="card">
+                    <img class="card-img-top" src="../static/images/szymon-shields-yFC5pxeriHI-unsplash.jpg" alt="Card image cap">
+                    <form id="weather-form3">
+                        <input type="text" class="form-control" id="retCity" placeholder="Enter city" required><br>
+                        <button type="submit" class="btn btn-primary">Check</button>
+                    </form>
+                    <div class="card-body">
+                        <h5 class="card-title">Retrieve Weather Data</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p class="card-text"><small class="text-muted">Photo by <a href="https://unsplash.com/@shields_mcmxcix?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Szymon Shields</a> on <a href="https://unsplash.com/photos/a-crowd-of-people-with-umbrellas-crossing-a-street-yFC5pxeriHI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="../static/images/ralph-hutter-p9poX98_WDg-unsplash.jpg" alt="Card image cap">
+                    <form id="weather-form" class="mt-4">
+                        <input type="text" class="form-control" id="city" placeholder="Which city?" required>
+                        <input type="date" class="form-control" id="date" placeholder="YYYY-MM-DD">
+                        <input type="number" class="form-control" id="temp" placeholder="City's temprature">
+                        <input type="text" class="form-control" id="desc" placeholder="Description please..."><br>
+                        <button type="submit" class="btn btn-primary">Enter</button>
+                    </form>
+                    <div class="card-body">
+                        <h5 class="card-title">Upload Complete Weather Data</h5>
+                        <p class="card-text">All section is required.</p>
+                        <p class="card-text"><small class="text-muted">Photo by <a href="https://unsplash.com/@pixelfreund?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ralph Hutter</a> on <a href="https://unsplash.com/photos/gold-and-white-analog-wall-clock-p9poX98_WDg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="../static/images/lesya-tyutrina-andrey-biyanov-DefJQltLQX4-unsplash.jpg" alt="Card image cap">
+                    <form id="weather-form2">
+                        <input type="text" class="form-control" id="autoCity" placeholder="Which city's temprature..." required><br>
+                        <button type="submit" class="btn btn-primary">Enter</button>
+                        <span></span>
+                    </form>
+                    <div class="card-body">
+                        <h5 class="card-title">Upload Open Weather Data</h5>
+                        <p class="card-text">Upload from open weather api; temprature and description will be auto
+                            generated.</p>
+                        <p class="card-text"><small class="text-muted">Photo by <a href="https://unsplash.com/@lesya_t?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Lesya Tyutrina Andrey Biyanov</a> on <a href="https://unsplash.com/photos/a-leaf-is-shown-on-top-of-a-leaf-in-the-snow-DefJQltLQX4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Js-->
+    <script src="../static/script.js"></script>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
