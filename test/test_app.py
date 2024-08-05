@@ -2,7 +2,7 @@ from datetime import datetime
 import unittest
 from flask import Flask, jsonify
 from flask_sqlalchemy import SQLAlchemy
-from app.main import app, db  
+from apps.main import app, db  
 
 class TestWeather(unittest.TestCase):
 

@@ -39,7 +39,10 @@ ___
 5. Run the application:
 
     ```bash
-    python your_application_file.py
+    python apps/main.py 
+    ```
+    ```bash
+    python apps\main.py # On Windows
     ```
 
 6. Navigate to `http://127.0.0.1:5000` to access the web interface.

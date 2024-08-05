@@ -1,6 +1,6 @@
 from datetime import datetime
-from app.config import Config
-from app.model import db, Weather
+from config import Config
+from model import db, Weather
 from flask import Blueprint, request, jsonify, render_template
 import requests
 
