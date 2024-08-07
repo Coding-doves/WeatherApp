@@ -1,7 +1,7 @@
 # Weather API
 ___
 A simple weather API built with Flask that interacts with an SQLite database and OpenWeatherMap API.
-![Alt text](./app/static/images/Screenshot.png)
+![./app/static/images/Screenshot.png](./app/static/images/Screenshot.png)
 ___
 ## API Documentation
 [OpenWeatherMap Current Weather Data documentation](https://openweathermap.org/current)
